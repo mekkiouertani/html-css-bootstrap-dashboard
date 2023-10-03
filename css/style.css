@@ -68,7 +68,9 @@ aside{
 #dash-left .end-icon i{
     cursor: pointer;
     border: 1px solid #6c757d;
-    border: r;
+}
+.hid{
+    display: none;
 }
 .main-content{
     overflow-y: scroll;
@@ -76,6 +78,7 @@ aside{
     width: calc(100% - 150px);
     background-color: aqua;
 }
+
 /*******
     TOPBAR
         ******/
@@ -86,5 +89,10 @@ aside{
 }
 
 /*************************************************
-    DASHBOARD
+    MEDIA QUERY
  *************************************************/
+ @media screen and (min-width: 768px){
+    .hid{
+        display: table-cell;
+    }
+ }
