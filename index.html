@@ -1,276 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
-    <title>BootStrap Dashboard</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>BootStrap Dashboard</title>
+</head>
 <body>
-    <div class="wrapper">
-        <!-- HEADER -->
-        <header>
-            lorem
-        </header>
-        <!-- <main> -->
-        <main class="d-flex contai">
-             <!--ASIDE -  barra laterale -->
-            <aside class="text-white">
+  <div class="wrapper">
+    <!-- HEADER -->
+    <header>
+      lorem
+    </header>
+    <!-- <main> -->
+    <main class="d-flex contai">
+      <!--ASIDE -  barra laterale -->
+      <aside class="text-white">
+        lorem
+      </aside>
+      <!--MAIN CONTENT -->
+      <div class="main-content">
+        <!--TOP BAR -->
+        <div class="topbar">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-6">
                 lorem
-            </aside>
-            <!--MAIN CONTENT -->
-            <div class="main-content">
-                <!--TOP BAR -->
-                <div class="topbar">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-6">
-                                lorem
-                            </div>
-                            <div class="col-3">
-                                lorem
-                            </div>
-                            <div class="col-3">
-                                lorem
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--CONTENITORE SEZIONI -->
-                <div class="container-fluid">
-                    <!--CONTENITORE SEZIONI -->
-                    <div id="dashboard" class="row mt-5">
-                        <!--SEZIONI SINISTRA -->
-                        <div class="left col-12 col-xl-8">
-                          <section id="classi">
-                              <div class="card">
-                                  <div class="card-header">
-                                      <h2 class="fs-3">Prossime Classi</h2>
-                                  </div>
-                                  <div class="card-body">
-                                      <table class="table table-hover">
-                                          <thead>
-                                            <tr>
-                                              <th scope="col" class="w-50">Nome</th>
-                                              <th scope="col" class="text-center hid">Data Inizio</th>
-                                              <th scope="col" class="text-center hid">ROI</th>
-                                              <th scope="col" class="text-center">Stato</th>
-                                              <th scope="col" class="text-center">Azioni</th>
-                                            </tr>
-                                          </thead>
-                                          <tbody>
-                                            <tr>
-                                              <td>
-                                                  <span class="circle-icon"><i class="fa-solid fa-code"></i></span>
-                                                  Classe 107
-                                              </td>
-                                              <td class="text-center hid">15 Feb 2020</td>
-                                              <td class="text-center hid">20%</td>
-                                              <td class="text-center"><span class="btn btn-warning py-0">process</span></td>
-                                              <td class="text-center">
-                                                  <span class="end-icon"><i class="fa-solid fa-pen rounded text-secondary p-2"></i></span>
-                                                  <span class="end-icon"><i class="fa-solid fa-trash rounded text-secondary p-2"></i></span>
-                                              </td>
-                                          </tr>
-                                            <tr>
-                                              <td>
-                                                  <span class="circle-icon"><i class="fa-solid fa-code"></i></span>
-                                                  Classe 107
-                                              </td>
-                                              <td class="text-center hid">15 Feb 2020</td>
-                                              <td class="text-center hid">20%</td>
-                                              <td class="text-center"><span class="btn btn-success py-0">Done</span></td>
-                                              <td class="text-center">
-                                                  <span class="end-icon"><i class="fa-solid fa-pen rounded text-secondary p-2"></i></span>
-                                                  <span class="end-icon"><i class="fa-solid fa-trash rounded text-secondary p-2"></i></span>
-                                              </td>
-                                          </tr>
-                                            <tr>
-                                              <td>
-                                                  <span class="circle-icon"><i class="fa-solid fa-code"></i></span>
-                                                  Classe 107
-                                              </td>
-                                              <td class="text-center hid">15 Feb 2020</td>
-                                              <td class="text-center hid">20%</td>
-                                              <td class="text-center"><span class="btn btn-danger py-0">failed</span></td>
-                                              <td class="text-center">
-                                                  <span class="end-icon"><i class="fa-solid fa-pen rounded text-secondary p-2"></i></span>
-                                                  <span class="end-icon"><i class="fa-solid fa-trash rounded text-secondary p-2"></i></span>
-                                              </td>
-                                          </tr>
-                                            <tr>
-                                              <td>
-                                                  <span class="circle-icon"><i class="fa-solid fa-code"></i></span>
-                                                  Classe 107
-                                              </td>
-                                              <td class="text-center hid">15 Feb 2020</td>
-                                              <td class="text-center hid">20%</td>
-                                              <td class="text-center"><span class="btn btn-success py-0">Done</span></td>
-                                              <td class="text-center">
-                                                  <span class="end-icon"><i class="fa-solid fa-pen rounded text-secondary p-2"></i></span>
-                                                  <span class="end-icon"><i class="fa-solid fa-trash rounded text-secondary p-2"></i></span>
-                                              </td>
-                                          </tr>
-                                            <tr>
-                                              <td>
-                                                  <span class="circle-icon"><i class="fa-solid fa-code"></i></span>
-                                                  Classe 107
-                                              </td>
-                                              <td class="text-center hid">15 Feb 2020</td>
-                                              <td class="text-center hid">20%</td>
-                                              <td class="text-center"><span class="btn btn-success py-0">Done</span></td>
-                                              <td class="text-center">
-                                                  <span class="end-icon"><i class="fa-solid fa-pen rounded text-secondary p-2"></i></span>
-                                                  <span class="end-icon"><i class="fa-solid fa-trash rounded text-secondary p-2"></i></span>
-                                              </td>
-                                          </tr>
-                                            <tr>
-                                              <td>
-                                                  <span class="circle-icon"><i class="fa-solid fa-code"></i></span>
-                                                  Classe 107
-                                              </td>
-                                              <td class="text-center hid">15 Feb 2020</td>
-                                              <td class="text-center hid">20%</td>
-                                              <td class="text-center"><span class="btn btn-success py-0">Done</span></td>
-                                              <td class="text-center">
-                                                  <span class="end-icon"><i class="fa-solid fa-pen rounded text-secondary p-2"></i></span>
-                                                  <span class="end-icon"><i class="fa-solid fa-trash rounded text-secondary p-2"></i></span>
-                                              </td>
-                                          </tr>
-                                            <tr>
-                                              <td>
-                                                  <span class="circle-icon"><i class="fa-solid fa-code"></i></span>
-                                                  Classe 107
-                                              </td>
-                                              <td class="text-center hid">15 Feb 2020</td>
-                                              <td class="text-center hid">20%</td>
-                                              <td class="text-center"><span class="btn btn-success py-0">Done</span></td>
-                                              <td class="text-center">
-                                                  <span class="end-icon"><i class="fa-solid fa-pen rounded text-secondary p-2"></i></span>
-                                                  <span class="end-icon"><i class="fa-solid fa-trash rounded text-secondary p-2"></i></span>
-                                              </td>
-                                          </tr>
-                          
-                                          </tbody>
-                                        </table>
-                                  </div>
-                                </div>
-                          </section>
-                          <!--sezione dash-left-bottom -->
-                          <section id="faq" class="mt-5 mb-5">
-                              <div class="card">
-                                  <div class="card-header">
-                                      <h2 class="fs-3">F.A.Q.</h2>
-                                  </div>
-                                      <div class="accordion mt-4" id="accordionExample">
-                                          <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                Come aggiungere un nuovo studente?
-                                              </button>
-                                            </h2>
-                                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                              <div class="accordion-body">
-                                                  <strong>Lorem ipsum dolor sit amet.</strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae nesciunt obcaecati laboriosam recusandae quibusdam! Eaque quidem perspiciatis illum. Repellendus.
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                Come posso accedere alle informazione del mio account?
-                                              </button>
-                                            </h2>
-                                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                              <div class="accordion-body">
-                                                  <strong>Lorem ipsum dolor sit amet.</strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae nesciunt obcaecati laboriosam recusandae quibusdam! Eaque quidem perspiciatis illum. Repellendus.
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                Posso usare questa dashboard da mobile?
-                                              </button>
-                                            </h2>
-                                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                              <div class="accordion-body">
-                                                  <strong>Lorem ipsum dolor sit amet.</strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae nesciunt obcaecati laboriosam recusandae quibusdam! Eaque quidem perspiciatis illum. Repellendus.
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                          
-                                </div>
-                          </section>
-                        </div>
-                        <!--SEZIONI DESTRA -->
-                        <div class="right col-12 col-xl-4">
-                          <section id="todo">
-                              <div class="card">
-                                  <div class="card-header">
-                                      <h2 class="fs-3">Todo</h2>
-                                  </div>
-                                  <div class="card-body">
-                                      <ul class="list-group">
-                                          <li class="list-group-item">
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                                  <label class="form-check-label" for="flexCheckDefault">
-                                                      Kickoff nuove classi
-                                                  </label>
-                                              </div>
-                                          </li>
-                                          <li class="list-group-item">
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                                  <label class="form-check-label" for="flexCheckChecked">
-                                                      Lezioni su Bootstrap 5 in classe #75
-                                                  </label>
-                                              </div>
-                                          </li>
-                                          <li class="list-group-item"><div class="form-check">
-                                              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                              <label class="form-check-label" for="flexCheckChecked">
-                                                  Controlla username github studenti
-                                              </label>
-                                            </div></li>
-                                        </ul>
-                                  </div>
-                          </section>
-                          <!--sezione dash-right-bottom -->
-                          <section id="graphic" class="mt-5 mb-5">
-                              <div class="card">
-                                  <img class="card-img-top" src="img/stats.jpeg" alt="statistic">
-                                  <div class="card-body">
-                                    <h5 class="card-title">Utenti attivi</h5>
-                                    <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
-                                  </div>
-                                  <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Gennaio 1200</li>
-                                    <li class="list-group-item">Febbraio: 800</li>
-                                    <li class="list-group-item">Marzo:1500</li>
-                                  </ul>
-                                  <div class="card-body">
-                                    <a href="#" class="card-link">Visualizza report approfondito</a>
-                                  </div>
-                                </div>
-                          </section>
-                        </div>
-                    </div>
-                </div>
+              </div>
+              <div class="col-3">
+                lorem
+              </div>
+              <div class="col-3">
+                lorem
+              </div>
             </div>
-        </main>
-    </div>
-    
-  
-    
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+          </div>
+        </div>
+        <!--CONTENITORE SEZIONI -->
+        <div class="container-fluid">
+          <!--CONTENITORE SEZIONI -->
+          <div id="dashboard" class="row mt-5">
+            <!--SEZIONI SINISTRA -->
+            <div class="left col-12 col-xl-8">
+              <section id="classi">
+                <div class="card">
+                  <div class="card-header">
+                    <h2 class="fs-3">Prossime Classi</h2>
+                  </div>
+                  <div class="card-body">
+                    <table class="table table-hover">
+                      <thead>
+                        <tr>
+                          <th scope="col" class="w-50">Nome</th>
+                          <th scope="col" class="text-center hid">Data Inizio</th>
+                          <th scope="col" class="text-center hid">ROI</th>
+                          <th scope="col" class="text-center">Stato</th>
+                          <th scope="col" class="text-center">Azioni</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <span class="circle-icon"><i class="fa-solid fa-code"></i></span>
+                            Classe 107
+                          </td>
+                          <td class="text-center hid">15 Feb 2020</td>
+                          <td class="text-center hid">20%</td>
+                          <td class="text-center"><span class="btn btn-warning py-0">process</span></td>
+                          <td class="text-center">
+                            <span class="end-icon"><i class="fa-solid fa-pen rounded text-secondary p-2"></i></span>
+                            <span class="end-icon"><i class="fa-solid fa-trash rounded text-secondary p-2"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span class="circle-icon"><i class="fa-solid fa-code"></i></span>
+                            Classe 107
+                          </td>
+                          <td class="text-center hid">15 Feb 2020</td>
+                          <td class="text-center hid">20%</td>
+                          <td class="text-center"><span class="btn btn-success py-0">Done</span></td>
+                          <td class="text-center">
+                            <span class="end-icon"><i class="fa-solid fa-pen rounded text-secondary p-2"></i></span>
+                            <span class="end-icon"><i class="fa-solid fa-trash rounded text-secondary p-2"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span class="circle-icon"><i class="fa-solid fa-code"></i></span>
+                            Classe 107
+                          </td>
+                          <td class="text-center hid">15 Feb 2020</td>
+                          <td class="text-center hid">20%</td>
+                          <td class="text-center"><span class="btn btn-danger py-0">failed</span></td>
+                          <td class="text-center">
+                            <span class="end-icon"><i class="fa-solid fa-pen rounded text-secondary p-2"></i></span>
+                            <span class="end-icon"><i class="fa-solid fa-trash rounded text-secondary p-2"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span class="circle-icon"><i class="fa-solid fa-code"></i></span>
+                            Classe 107
+                          </td>
+                          <td class="text-center hid">15 Feb 2020</td>
+                          <td class="text-center hid">20%</td>
+                          <td class="text-center"><span class="btn btn-success py-0">Done</span></td>
+                          <td class="text-center">
+                            <span class="end-icon"><i class="fa-solid fa-pen rounded text-secondary p-2"></i></span>
+                            <span class="end-icon"><i class="fa-solid fa-trash rounded text-secondary p-2"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span class="circle-icon"><i class="fa-solid fa-code"></i></span>
+                            Classe 107
+                          </td>
+                          <td class="text-center hid">15 Feb 2020</td>
+                          <td class="text-center hid">20%</td>
+                          <td class="text-center"><span class="btn btn-success py-0">Done</span></td>
+                          <td class="text-center">
+                            <span class="end-icon"><i class="fa-solid fa-pen rounded text-secondary p-2"></i></span>
+                            <span class="end-icon"><i class="fa-solid fa-trash rounded text-secondary p-2"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span class="circle-icon"><i class="fa-solid fa-code"></i></span>
+                            Classe 107
+                          </td>
+                          <td class="text-center hid">15 Feb 2020</td>
+                          <td class="text-center hid">20%</td>
+                          <td class="text-center"><span class="btn btn-success py-0">Done</span></td>
+                          <td class="text-center">
+                            <span class="end-icon"><i class="fa-solid fa-pen rounded text-secondary p-2"></i></span>
+                            <span class="end-icon"><i class="fa-solid fa-trash rounded text-secondary p-2"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span class="circle-icon"><i class="fa-solid fa-code"></i></span>
+                            Classe 107
+                          </td>
+                          <td class="text-center hid">15 Feb 2020</td>
+                          <td class="text-center hid">20%</td>
+                          <td class="text-center"><span class="btn btn-success py-0">Done</span></td>
+                          <td class="text-center">
+                            <span class="end-icon"><i class="fa-solid fa-pen rounded text-secondary p-2"></i></span>
+                            <span class="end-icon"><i class="fa-solid fa-trash rounded text-secondary p-2"></i></span>
+                          </td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </section>
+              <!--sezione dash-left-bottom -->
+              <section id="faq" class="mt-5 mb-5">
+                <div class="card">
+                  <div class="card-header">
+                    <h2 class="fs-3">F.A.Q.</h2>
+                  </div>
+                  <div class="accordion mt-4" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Come aggiungere un nuovo studente?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Lorem ipsum dolor sit amet.</strong>Lorem, ipsum dolor sit amet consectetur
+                          adipisicing elit. Odit molestiae nesciunt obcaecati laboriosam recusandae quibusdam! Eaque
+                          quidem perspiciatis illum. Repellendus.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Come posso accedere alle informazione del mio account?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Lorem ipsum dolor sit amet.</strong>Lorem, ipsum dolor sit amet consectetur
+                          adipisicing elit. Odit molestiae nesciunt obcaecati laboriosam recusandae quibusdam! Eaque
+                          quidem perspiciatis illum. Repellendus.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Posso usare questa dashboard da mobile?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Lorem ipsum dolor sit amet.</strong>Lorem, ipsum dolor sit amet consectetur
+                          adipisicing elit. Odit molestiae nesciunt obcaecati laboriosam recusandae quibusdam! Eaque
+                          quidem perspiciatis illum. Repellendus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </section>
+            </div>
+            <!--SEZIONI DESTRA -->
+            <div class="right col-12 col-xl-4">
+              <section id="todo">
+                <div class="card">
+                  <div class="card-header">
+                    <h2 class="fs-3">Todo</h2>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Kickoff nuove classi
+                          </label>
+                        </div>
+                      </li>
+                      <li class="list-group-item">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked1" checked>
+                          <label class="form-check-label" for="flexCheckChecked1">
+                            Lezioni su Bootstrap 5 in classe #75
+                          </label>
+                        </div>
+                      </li>
+                      <li class="list-group-item">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2" checked>
+                          <label class="form-check-label" for="flexCheckChecked2">
+                            Controlla username github studenti
+                          </label>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+              <!--sezione dash-right-bottom -->
+              <section id="graphic" class="mt-5 mb-5">
+                <div class="card">
+                  <img class="card-img-top" src="img/stats.jpeg" alt="statistic">
+                  <div class="card-body">
+                    <h5 class="card-title">Utenti attivi</h5>
+                    <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Gennaio 1200</li>
+                    <li class="list-group-item">Febbraio: 800</li>
+                    <li class="list-group-item">Marzo:1500</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Visualizza report approfondito</a>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
