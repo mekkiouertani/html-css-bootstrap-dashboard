@@ -54,17 +54,18 @@ aside{
 
 
 /******* sezione DASH LEFT ******/
-/* .circle-icon{
-    display: inline-block;
-        border-radius:100%;
+.circle-icon{
         border:1px solid #ccc;
         text-align:center;
-        display:table-cell;
         vertical-align:middle;
         width:35px;
         height:35px;      
-        border-radius: 50%; 
-} */
+        border-radius: 50%;
+        background-color: #f26551; 
+        padding: 7px;
+        color: white;
+}
+
 #dash-left .end-icon i{
     cursor: pointer;
     border: 1px solid #6c757d;
