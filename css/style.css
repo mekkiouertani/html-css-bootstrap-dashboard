@@ -56,8 +56,7 @@ aside{
 /******* sezione DASH LEFT ******/
 .circle-icon{
         border:1px solid #ccc;
-        text-align:center;
-        vertical-align:middle;
+        vertical-align: sub;
         width:35px;
         height:35px;      
         border-radius: 50%;
