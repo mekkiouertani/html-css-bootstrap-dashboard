@@ -52,7 +52,6 @@ aside{
 /******* MAIN CONTENT ******/
 
 
-/******* sezione DASH LEFT ******/
 .circle-icon{
         border:1px solid #ccc;
         vertical-align: sub;
@@ -71,6 +70,11 @@ aside{
 .hid{
     display: none;
 }
+
+.accordion-item{
+    border: 0px;
+}
+
 .main-content{
     overflow-y: scroll;
     height: 100%;
