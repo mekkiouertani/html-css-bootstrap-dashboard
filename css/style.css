@@ -51,8 +51,25 @@ aside{
 }
 
 /******* MAIN CONTENT ******/
-        
 
+
+/******* sezione DASH LEFT ******/
+/* .circle-icon{
+    display: inline-block;
+        border-radius:100%;
+        border:1px solid #ccc;
+        text-align:center;
+        display:table-cell;
+        vertical-align:middle;
+        width:35px;
+        height:35px;      
+        border-radius: 50%; 
+} */
+#dash-left .end-icon i{
+    cursor: pointer;
+    border: 1px solid #6c757d;
+    border: r;
+}
 .main-content{
     overflow-y: scroll;
     height: 100%;
