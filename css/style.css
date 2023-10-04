@@ -44,9 +44,19 @@ main{
     ASIDE
         ******/
 aside{
-    width: 150px;
+    flex-shrink: 0;
     height: 100%;
     background-color: #0f263d;
+    background-image: url(../img/sidebar-bg.png);
+}
+aside li{
+    cursor: pointer;
+    list-style: none;
+}
+
+aside i{
+    display: inline-block;
+    width: 50px;
 }
 
 /******* MAIN CONTENT ******/
@@ -67,9 +77,6 @@ aside{
     cursor: pointer;
     border: 1px solid #6c757d;
 }
-.hid{
-    display: none;
-}
 
 .accordion-item{
     border: 0px;
@@ -78,7 +85,7 @@ aside{
 .main-content{
     overflow-y: scroll;
     height: 100%;
-    width: calc(100% - 150px);
+    flex-grow: 1;
 }
 
 /*******
@@ -94,7 +101,12 @@ aside{
     MEDIA QUERY
  *************************************************/
  @media screen and (min-width: 768px){
-    .hid{
-        display: table-cell;
+    
+ }
+
+ @media screen and (min-width: 992px){
+    aside ul{
+        font-size: 0.7em;
+        margin-right: 2rem;
     }
  }
