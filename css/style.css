@@ -25,9 +25,11 @@ aside ul li, header ul li{
 }
 
 aside li:hover{
-    background-color: grey;
+    transform: scale(1.2);
 }
-
+.bln-3 .fa-solid.fa-plus:hover{
+    transform: scale(1.2);
+}
 .my-darkblue{
     background-color: var(--color-side-bar);
 }
