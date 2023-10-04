@@ -23,6 +23,10 @@ aside ul li, header ul li{
     list-style:none;
     cursor: pointer;
 }
+
+aside li:hover{
+    background-color: grey;
+}
     
 
 /*************************************************
@@ -41,6 +45,7 @@ header{
 
 nav img:first-child{
     width: 70px;
+    margin-left: 0.6rem;
 }
 .mr-sm-2{
     background-color: rgba(112, 112, 112, 0.5)
@@ -58,6 +63,7 @@ main{
     ASIDE
         ******/
 aside{
+    overflow: hidden;
     flex-shrink: 0;
     height: 100%;
     background-color: #0f263d;
@@ -66,7 +72,13 @@ aside{
 
 aside i{
     display: inline-block;
-    min-width: 50px;
+    min-width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align:auto;
+}
+aside span{
+    vertical-align: top;
 }
 
 /******* MAIN CONTENT ******/
@@ -103,7 +115,6 @@ aside i{
         ******/
 .topbar{
     background-color: var(--color-nav-bar);
-    height: 100px;
     width: 100%;
 }
 
