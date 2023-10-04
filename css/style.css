@@ -18,6 +18,13 @@ body{
     height: 100vh;
 }
 
+aside ul li, header ul li{ 
+    margin-left: -2.05rem;
+    list-style:none;
+    cursor: pointer;
+}
+    
+
 /*************************************************
     HEADER
  *************************************************/
@@ -30,6 +37,13 @@ header{
     left: 0;
     width: 100%;
     height: 70px;
+}
+
+nav img:first-child{
+    width: 70px;
+}
+.mr-sm-2{
+    background-color: rgba(112, 112, 112, 0.5)
 }
 
 /*************************************************
@@ -49,14 +63,10 @@ aside{
     background-color: #0f263d;
     background-image: url(../img/sidebar-bg.png);
 }
-aside li{
-    cursor: pointer;
-    list-style: none;
-}
 
 aside i{
     display: inline-block;
-    width: 50px;
+    min-width: 50px;
 }
 
 /******* MAIN CONTENT ******/
@@ -106,7 +116,11 @@ aside i{
 
  @media screen and (min-width: 992px){
     aside ul{
-        font-size: 0.7em;
+        font-size: 0.6em;
         margin-right: 2rem;
+    }
+
+    header ul li:last-child{
+        font-size: 1em !important;
     }
  }
